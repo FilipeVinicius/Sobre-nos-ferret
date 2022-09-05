@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --bg-color-body: #2f1e65;
+    --txt-color: #fff;
+    --bg-color-caixa: #8debeb;
+    --border-color: white;
+}
+
+body{
+    background-color: var(--bg-color-body);
+    color: var(--txt-color);
+    
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+.caixa{
+   margin: 5rem;
+   font-size: 18px;
+   text-align: justify;
+   line-height: 1.7rem;
+   border: 3px solid var(--border-color);
+   padding: 20px;
+}
+
+.comeco{
+    margin-left: 5%;
+}
+
+#nMeio, #nFim{
+    font-weight: 1;
+}
+
+#nComeco{
+    font-size: 30px;
+}
+
+
